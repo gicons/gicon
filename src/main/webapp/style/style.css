@@ -1,0 +1,489 @@
+		span{
+		color:red;
+		}      
+       *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navigationbar{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul{
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #555;
+        }
+        
+        h1{
+            font-size:30px;
+            color: #555;
+            font-family:Calibri;
+        }
+
+        .c1{
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+
+        .c2{
+            flex-basis: 50%;
+            min-width: 300px;
+        }
+
+        .c2 img{
+            max-width: 100%;
+            padding: 20px 0;
+        }
+
+        .c2 h2{
+            font-size: 40px;
+            line-height: 50px;
+            margin: 25px 0;
+        }
+
+        .btn{
+            display: inline-block;
+            background: #32cd32;
+            color: #fff;
+            padding: 8px 30px;
+            margin: 30px 0;
+            border-radius: 30px;
+            transition: 0.5s;
+        }
+
+        .btn:hover{
+            background: #563434;
+        }
+
+        .header{
+            background: radial-gradient(#fff, #98fb98);
+            color: #000;
+        }
+
+        .header .row{
+            margin-top: 70px;
+        }
+
+        .categories{
+            margin: 70px 0;
+        }
+
+        .c3{
+            flex-basis: 50%;
+            min-width: 300px;
+        }
+
+        .c3 .img-fluid{
+            float: left;
+            border-radius: 10px;
+            max-width: 150px;
+        }
+        
+        .container {
+		width: 100%;
+		height: auto;
+		background-color: #FF9;
+		margin: auto;
+		background-color: #FFF;
+		align-items: center;
+		justify-content: center;
+        }
+      
+       .footer {
+ 	 	width: 100%;
+ 		height: 80px;
+  		background-color: #000;
+  		font-size:13px;
+  		color: #FFF;
+  		margin-top: 12px;
+  		margin-right: auto;
+  		margin-left: auto;
+  		text-align:center;
+  		}
+
+		/* Navbar container */
+		.navbar {
+  		overflow: hidden;
+  		background-color: #5fc214;
+  		
+		}
+
+		/* Links inside the navbar */
+		.navbar a {
+  		float: left;
+  		font-size: 16px;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		
+		}
+
+		/* The dropdown container */
+		.dropdown {
+  		float: left;
+  		overflow: hidden;
+		}
+
+		/* Dropdown button */
+		.dropdown .dropbtn {
+ 	 	font-size: 16px;
+  		border: none;
+  		outline: none;
+  		color: white;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family: inherit; /* Important for vertical align on mobile phones */
+  		margin: 0; /* Important for vertical align on mobile phones */
+		}
+
+		/* Add a red background color to navbar links on hover */
+		.navbar a:hover, .dropdown:hover .dropbtn {
+  		background-color: #c0c0c0;
+		}
+
+		/* Dropdown content (hidden by default) */
+		.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f9f9f9;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+  		float: none;
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+ 	 	text-align: left;
+		}
+
+		/* Add a grey background color to dropdown links on hover */
+		.dropdown-content a:hover {
+  		background-color: #c0c0c0;
+		}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {
+  		display: block;
+		}
+		
+		.Button {
+  		border: none;
+  		color: white;
+  		padding: 10px 10px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		font-size: 12px;
+  		}
+		
+		.cart {background-color: #4CAF50; width:154px;} /* green */
+        .cart:hover {background-color: #c0c0c0;}
+        
+		.edit {background-color: #0080ff; width:75px;} /* blue */
+        .edit:hover {background-color: #c0c0c0;}
+        
+        .delete {background-color: #fc3636; width:74px;} /* red */
+        .delete:hover {background-color: #c0c0c0;}
+        
+        .outstock {background-color: #c0c0c0; width:154px;} /* yellow */        
+  		
+		table {
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+		
+		.list-product {
+			border: 1px solid #000;
+		}
+  		
+ 		imgDesc{
+		border-collapse: separate;
+  		border-spacing: 30px 15px; 
+		}
+		
+		figure {
+  		border: 1px #00ff00 solid;
+  		margin: auto; 
+  		width: auto; 		
+		}
+		
+		input[type=button], input[type=submit] {
+ 	 	background-color: #4CAF50;
+  		border: none;
+  		color: white;
+  		padding: 10px 10px;
+  		text-decoration: none;
+  		margin: 4px 2px;
+  		cursor: pointer;
+  		}
+  		
+  		input[type=reset] {
+ 	 	background-color: #808080;
+  		border: none;
+  		color: white;
+  		padding: 10px 10px;
+  		text-decoration: none;
+  		margin: 4px 2px;
+  		cursor: pointer;
+  		}
+  		
+  		input[type=submit]:hover, input[type=reset]:hover  {
+  		background-color: #000;
+  		color: white;
+		}
+  		
+		#demo-file::file-selector-button {
+		border: 1px solid black;
+		color: #fff;
+		padding: 10px 10px;
+		background-color: #818181;
+		}
+
+		#demo-file::file-selector-button:hover {
+		background-color: #4CAF50;
+		}
+
+		#demo-file::-webkit-file-upload-button {
+		border: none;
+		color: #fff;
+		padding: 10px;
+		background-color: #c0c0c0;
+		}
+
+		#demo-file::-webkit-file-upload-button:hover {
+		background-color: #000;
+		}
+		
+		
+		/* from diba */
+
+		/* Style the submit button */
+		form.searching input[type=text] {
+		padding: 10px;
+		font-size: 17px;
+		float:center;
+		width: 30%;
+		background: #f1f1f1;
+		}
+
+		/* Style the submit button */
+		form.searching button {
+		float:center;
+		width: 10%;
+		padding: 10px;
+		background: #2196F3;
+		color: white;
+		font-size: 17px;
+		border: 1px solid grey;
+		border-left: none; /* Prevent double borders */
+		cursor: pointer;
+		}
+
+		form.searching button:hover {
+		background: #0b7dda;
+		}
+		
+		form.details input[type=text], input[type=number], input[type=date], input[type=time]{
+		font-size: 15px;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		width:100%;
+  		border: 1px solid grey;	
+		}
+		
+		.form-container{
+  		background-color: #f2f2f2;
+  		padding: 12px 20px;
+  		margin: auto;
+  		width:50%;	
+  		border: 1px solid grey;
+		}
+		
+		.category {
+  		position: relative;
+  		width: 100%;
+  		}
+
+		.category select {
+  		width: 100%;
+		}
+
+		.category > * {
+  		box-sizing: border-box;
+  		height: 45px;
+		}
+
+		.category input {
+  		position: absolute;
+  		width: 100%;
+		}
+		
+		
+		
+		/* css kalau ada yang tambah letak bawah ni ikut nama nnt senang nak compile */
+		
+		
+		/* diba css */
+		textarea {
+  		width: 30%;
+  		height: 100px;
+  		padding: 12px 20px;
+  		box-sizing: border-box;
+  		border: 2px solid #ccc;
+ 		border-radius: 4px;
+  		background-color: #f8f8f8;
+  		font-size: 16px;
+  		resize: none;
+		}
+		
+		.avatar {
+  		vertical-align: middle;
+  		width: 140px;
+  		height: 140px;
+  		border-radius: 50%;
+		}
+		
+		.c {
+  		margin-left: auto;
+  		margin-right: auto;
+		}
+  		
+  		.account {
+		width: 40%;
+		height: auto;
+		background: rgba(0,0,0, 0.4);
+		margin-left: 100px;
+		align-items: center;
+		justify-content: center;
+	
+        }
+        
+        .u{
+        border-radius:5px;
+        border:none;
+        padding:5px;
+        width: 30%;
+        height:20px;
+        
+        }
+        
+        .editing input[type=text], .editing input[type=number]{
+        	font-size: 15px;
+			border-radius: 5px;
+  			padding: 12px 20px;
+  			margin: 8px 0;
+  			width:80%;
+        }
+        
+        .data {
+		  border-collapse: collapse;
+		  width: 80%;
+		  background: linear-gradient(to bottom, #ffffcc 0%, #006699 100%);
+		  border-radius:5%;
+		  empty-cells:show;
+		  
+		}
+		
+		.un{
+		width:30%;
+		}
+		
+		.blank {
+			height:20px;
+		}
+		
+		.admin {
+			margin-left: 10%;
+			margin-right: 10%;
+			border: 2px solid;
+			border-radius: 4%;
+			background-image: url('../images/8.jpg');
+		
+		}
+		
+		/*.line {
+			border-left: 1px solid gray;
+  			height: 350px;
+  			position: absolute;
+  			left: 40%;
+ 			margin-left: -3px;
+  			top: 300px;
+		
+		}*/
+		
+		
+		
+		
+		
+		/* nik css */
+		
+		
+		
+		
+		
+		/* adam css */
+		
+		
+		
+		
+		
+		/* mira css */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* dayah css */
+		
+		
+		
+		
+		
+		
+		
+		

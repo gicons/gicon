@@ -188,9 +188,9 @@
                 <br><br>
                 <input type="email" class="email" name="custEmail" placeholder="Email" size="30" required="required">
                 <br><br>
-                <input type="password" class="password" name="custPassword" placeholder="Password" size="30" required="required">
-				<br><br>
-                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password" size="30" required="required">
+                <input type="password" class="password" name="custPassword" placeholder="Password" size="30" required="required" min="6" max="10">
+		<br><br>
+                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password" size="30" required="required" min="6" max="10">
                 <br>
                 <input type="submit" class="button" value="Register" onclick="myFunction()">
                 <input type="reset" class="button" value="Reset">
@@ -201,13 +201,15 @@
    <script>
 	var form = document.getElementById('f');
 
-function myFunction() {
-  if (form.checkValidity()) {
-    alert("Succesfully Registered !");
-  }
-	else
-	   alert("Invalid Input !");
-}
+	function myFunction() 
+	{
+  		if (form.checkValidity()) 
+		{
+   		 alert("Succesfully Registered !");
+  		}
+		else
+		   alert("Invalid Input !");
+	}
    </script>
    
 </body>

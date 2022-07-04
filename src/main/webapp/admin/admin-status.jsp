@@ -149,7 +149,7 @@
             <td><%=rs3.getString("orderStatus")%></td>
             <td><%=rs3.getString("orderPickupTime")%></td>
             <td><%=rs3.getString("orderPickupDate")%></td>
-            <td><a href="admin-delete-order.jsp?<%=rs3.getString("orderId") %>" class="btn btn-primary">Delete</a></td>
+            <td><a href="admin-delete-order.jsp?orderId<%=rs3.getString("orderId") %>" class="btn btn-primary">Delete</a></td>
        
            <%
         }

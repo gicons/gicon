@@ -198,12 +198,13 @@
         </div>
     </div>
     
-    <script>
-	function myFunction() {
-	  alert((myFunction(){
-		 if(cond){return "Successfully register !";}
-	    else
-	    	{return "Invalid input message !");}());
+   <script>
+	function myFunction()
+	{
+	  if ==true
+		{alert("Successfully register !");}
+		else
+		{alert("Invalid input !");}
 	}
 	</script>
    

@@ -183,7 +183,7 @@
         </div>
         <br>
         <div class="box">
-            <form class="form" action="signup-action.jsp" method="post"><br>
+            <form class="form" action="signup-action.jsp" method="post" id="f"><br>
                 <input type="text" class="fullname" name="custName" placeholder="Full Name" size="30" required="required">
                 <br><br>
                 <input type="email" class="email" name="custEmail" placeholder="Email" size="30" required="required">
@@ -199,14 +199,13 @@
     </div>
     
    <script>
-	var result = myFunction();
-	function myFunction()
-	{
-	  if (result == true)
-		{alert("Successfully register !");}
-	  else
-		{alert("Invalid input !");}
-	}
+	var form = document.getElementById('f');
+
+function myFunction() {
+  if (form.checkValidity()) {
+    alert("Adding Succesful!");
+  }
+}
    </script>
    
 </body>

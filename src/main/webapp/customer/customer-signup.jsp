@@ -188,9 +188,9 @@
                 <br><br>
                 <input type="email" class="email" name="custEmail" placeholder="Email" size="30" required="required">
                 <br><br>
-                <input type="password" class="password" name="custPassword" placeholder="Password" size="30" required="required" min="6" max="10">
+                <input type="password" class="password" name="custPassword" placeholder="Password (minimum 6 characters)" size="30" required="required" minlength="6" maxlength="10">
 		<br><br>
-                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password" size="30" required="required" min="6" max="10">
+                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password (minimum 6 characters)" size="30" required="required" minlength="6" maxlength="10">
                 <br>
                 <input type="submit" class="button" value="Register" onclick="myFunction()">
                 <input type="reset" class="button" value="Reset">

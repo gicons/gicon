@@ -200,7 +200,10 @@
     
     <script>
 	function myFunction() {
-	  alert("Successfully register !");
+	  alert((myFunction(){
+		 if(cond){return "Successfully register !";}
+	    else
+	    	{return "Invalid input message !");}());
 	}
 	</script>
    

@@ -199,14 +199,15 @@
     </div>
     
    <script>
+	var result = myFunction();
 	function myFunction()
 	{
-	  if ==true
+	  if (result == true)
 		{alert("Successfully register !");}
-		else
+	  else
 		{alert("Invalid input !");}
 	}
-	</script>
+   </script>
    
 </body>
 </html>

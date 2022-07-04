@@ -184,13 +184,13 @@
         <br>
         <div class="box">
             <form class="form" action="signup-action.jsp" method="post"><br>
-                <input type="text" class="fullname" name="custName" placeholder="Full Name" size="30" required>
+                <input type="text" class="fullname" name="custName" placeholder="Full Name" size="30" required="required">
                 <br><br>
-                <input type="text" class="email" name="custEmail" placeholder="Email" size="30" required>
+                <input type="email" class="email" name="custEmail" placeholder="Email" size="30" required="required">
                 <br><br>
-                <input type="password" class="password" name="custPassword" placeholder="Password" size="30" required>
+                <input type="password" class="password" name="custPassword" placeholder="Password" size="30" required="required">
 				<br><br>
-                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password" size="30" required>
+                <input type="password" class="password" name="custConfirmPassword" placeholder="Confirm Password" size="30" required="required">
                 <br>
                 <input type="submit" class="button" value="Register" onclick="myFunction()">
                 <input type="reset" class="button" value="Reset">

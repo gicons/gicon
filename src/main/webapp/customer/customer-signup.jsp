@@ -203,8 +203,10 @@
 
 function myFunction() {
   if (form.checkValidity()) {
-    alert("Adding Succesful!");
+    alert("Succesfully Registered !");
   }
+	else
+	   alert("Invalid Input !");
 }
    </script>
    
